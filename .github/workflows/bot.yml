@@ -26,6 +26,6 @@ jobs:
 
       - name: Run bot
         env:
-          BOT_TOKEN: ${{ secrets.BOT_NATI }}
-          CHAT_ID: ${{ secrets.CHAT_ID_NATI  }}
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
         run: python nature.py
