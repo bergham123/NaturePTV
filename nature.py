@@ -5,8 +5,8 @@ import os
 import subprocess
 
 # 🔐 from GitHub Secrets
-BOT_TOKEN = os.getenv("BOT_NATI")
-CHAT_ID = os.getenv("CHAT_ID_NATI")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 
 RSS_URL = "https://www.youtube.com/feeds/videos.xml?channel_id=UCmX4nKaKkDunvLIgZUVDs3A"
 
